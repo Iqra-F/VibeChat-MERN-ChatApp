@@ -1,0 +1,58 @@
+backend/ .env
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build files and directories
+/dist/
+/build/
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+
+# Cache and temporary files
+.cache/
+*.cache
+/tmp/
+*.tmp
+*.temp
+*.pid
+*.seed
+*.log
+
+# IDE-specific files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*.bak
+
+# OS-generated files
+Thumbs.db
+.DS_Store
+
+# Git-related files
+*.orig
+
+# React-specific
+frontend/.next/
+frontend/out/
+frontend/.env
+frontend/.env.local
+
+# Miscellaneous
+*.iml
+*.hprof

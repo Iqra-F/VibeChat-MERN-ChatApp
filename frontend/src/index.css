@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-bg min-h-screen;
+  }
+/* button{
+  @apply bg-button-bg;
+} */
+@layer components {
+  button {
+    @apply bg-teal-500 text-white hover:bg-teal-600;
+  }
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
